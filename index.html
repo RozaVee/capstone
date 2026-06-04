@@ -1,34 +1,49 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
         <title>Cat's Corner</title>
         <meta charset="utf-8">
     </head>
     <body>
         <header>
-            <h1>Welcome to Cat's Corner!</h1>
+            <h1 id="welcome">Welcome to Cat's Corner!</h1>
         </header>
         <main>
             <section>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <li><a href="./pages/about.html">About Us</a></li>
+                        <li><a href="./pages/contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
             </section>
-    <!-- Introduction to Cat's Corner -->
+            <!-- Introduction to Cat's Corner -->
             <section> 
                 <h2>About Us</h2>
-                <p>Cat's Corner is a community dedicated to cat lovers. We share tips, stories, and photos of our cats. Whether you're a seasoned cat owner or just starting to learn about cats, you'll find something here for you.</p> 
+                <div>
+                    <figure>
+                        <!-- example of an relative path -->
+                        <img src="./images/cats-corner-logo.png" alt="A logo of a grey and white cat" width="200px" height="200px">
+                        <figcaption>Cat's Corner Logo</figcaption>
+                    </figure>
+                </div>
+                <p>Cat's Corner is a community dedicated to cat lovers. We share tips, stories, and photos of our cats. Whether you're a seasoned cat owner or just starting to learn about cats, you'll find something here for you.</p>
+                <div>
+                    <figure>
+                        <!-- example of an absolute path -->
+                        <img src="https://images.unsplash.com/photo-1570018144715-43110363d70a?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="An image of three brown tabby kittens lying on a board" width="400px" height="400px">
+                        <figcaption>Three Brown Tabby Kittens. Image provided by <a href="https://unsplash.com/photos/three-brown-tabby-kitten-lying-on-board-uePn9YCTCY0" target="_blank">Unsplash</a></figcaption>
+                    </figure>
+                </div>
             </section>
             <section>
                 <h2>Contact Us</h2>
                 <p>If you have any questions or want to share your cat stories, feel free to reach out to us at <a href="mailto:info@catscorner.com">info@catscorner.com</a>.</p>
             </section>  
         </main>
+        <footer>
+            <p>&copy; 2026 Cat's Corner. All rights reserved.</p>
+            <a href="#welcome">Back to Top</a>
+        </footer>
     </body>
-    <footer>
-        <p>&copy; 2026 Cat's Corner. All rights reserved.</p>
-    </footer>
 </html>
