@@ -1,6 +1,7 @@
 /* Website styling for Cat's Corner */
 * {
-    font-size: 100%;
+    font-family: 'Montserrat', sans-serif, helvetica;
+    /* font-size: 14px; */
 }
 body { 
     background-color: lightblue;
@@ -48,6 +49,8 @@ h3 {
 }
 p {
     line-height: 2;
+    font-style: normal;
+    padding: 10px;
 }
 a {
     color: red;
