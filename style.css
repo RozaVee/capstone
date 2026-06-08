@@ -28,6 +28,7 @@ h1 {
 }
 header h1 {
     text-align: center ;
+    text-decoration: underline;
 }
 h2 {
     color: darkslategray;
@@ -61,4 +62,10 @@ a:hover {
 }
 a:visited {
     color: grey;
+}
+a:active {
+    color: orange;
+}
+footer a {
+    font-size: 14px;
 }
