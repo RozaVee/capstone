@@ -7,6 +7,30 @@
     box-sizing: border-box;
     /* border:1px solid blue; */
 }
+.container {
+  display: flex;
+  background-color: red;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
 body { 
     background-color: lightblue;
     color:darkslategray;
@@ -17,11 +41,11 @@ body {
     background-repeat: no repeat;
 }
 .banner {
-    background-color: lightblue;
+    /* background-color: lightblue;
     height: 350px;
     border: 2px solid darkslategray;
     max-width: 900%;
-    width:900px;
+    width:900px; */
     background-image: url("images/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg");
     background-size: cover;
     height: 350px;
@@ -73,7 +97,7 @@ h2 {
     padding: 10px;
 }
 .contact {
-    color: yellow;
+    color: darkslategray;
     text-align: left;
     padding: 10px;
 }
