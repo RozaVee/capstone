@@ -17,11 +17,11 @@ body {
     background-repeat: no repeat;
 }
 .banner {
-    /* background-color: lightblue;
+    background-color: lightblue;
     height: 350px;
     border: 2px solid darkslategray;
     max-width: 900%;
-    width:900px; */
+    width:900px;
     background-image: url("images/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg");
     background-size: cover;
     height: 350px;
