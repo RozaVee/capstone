@@ -13,13 +13,28 @@ body {
     font-family: 'Montserrat', sans-serif, helvetica;
     font-size: 14px;
     padding: 0;
-    background-image: url(images/stripes-light.png);
+    background-image: url(./images/stripes-light.png);
     background-repeat: no repeat;
 }
 .banner {
-    background-image: url(images/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg);
+    /* background-color: lightblue;
+    height: 350px;
+    border: 2px solid darkslategray;
+    max-width: 900%;
+    width:900px; */
+    background-image: url("images/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg");
     background-size: cover;
     height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px auto;
+}
+.hero-banner {
+    background-image: url("images/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 900px;
+    background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 20px;
 }
@@ -86,7 +101,7 @@ p {
     margin: 20px 35px 20px 0;
 }
 ul, ol {
-    margin: 15px 0;
+    margin: 15px auto;
 }
 img {
     height: 100%;
