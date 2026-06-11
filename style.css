@@ -11,6 +11,19 @@
   display: flex;
   background-color: red;
 }
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+}
+header {
+    background-color: lightpink;
+    padding: 20px;
+    border-bottom: 5px solid darkslategray;
+    border-radius: 0 0 10px 10px;
+}
 .container-1 {
   display: flex;
   background-color: red;
@@ -41,13 +54,13 @@ header nav ul li a {
     font-weight: bold;
 }
 body { 
-    background-color: lightblue;
+    background-color: lab(87.85% 15.62 2.55);
     color:darkslategray;
     font-family: 'Montserrat', sans-serif, helvetica;
     font-size: 14px;
     padding: 0;
-    background-image: url(./images/stripes-light.png);
-    background-repeat: no repeat;
+    /* background-image: url(./images/stripes-light.png);
+    background-repeat: no repeat; */
 }
 .banner {
     /* background-color: lightblue;
@@ -64,7 +77,7 @@ body {
 }
 #welcome {
     background-color: white;
-    border: 2px solid lightpink;
+    border: 2px solid lab(87.85% 15.62 2.55);
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
@@ -117,7 +130,7 @@ body {
 .activity-box {
     flex: 1;
     background-color: white;
-    border: 2px solid lightpink;
+    border: 2px solid lab(87.85% 15.62 2.55);
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 20px;
@@ -129,7 +142,7 @@ body {
 .cat-column {
     flex: 1;
     background-color: white;
-    border: 2px solid lightpink;
+    border: 2px solid lab(87.85% 15.62 2.55);
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 20px;
@@ -143,12 +156,6 @@ body {
     background-position: center;
     margin-bottom: 20px;
 } */
-header {
-    background-color: lightpink;
-    padding: 20px;
-    border-bottom: 5px solid darkslategray;
-    border-radius: 0 0 10px 10px;
-}
 header,
 section,
 footer {
@@ -206,12 +213,12 @@ img {
     height: 40%;
     width: 40%;
     margin-bottom: 20px;
-    border: 2px solid lightpink;
+    border: 2px solid lab(87.85% 15.62 2.55);
     border-radius: 10px;
 }
 .circle-image {
     background-color: white;
-    border: 2px solid lightpink;
+    border: 2px solid lab(87.85% 15.62 2.55);
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 20px;
@@ -227,10 +234,11 @@ a:visited {
     color: grey;
 }
 a:active {
-    color: orange;
+    color: red;
 }
 footer a {
     font-size: 14px;
+    text-align: center;
 }
 .center-image {
     display: block;
