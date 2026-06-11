@@ -18,11 +18,17 @@
   padding: 20px 0;
   width: 100%;
 }
+.logo {
+  height: 200px;
+  width: 200px;
+}
+iframe {
+    display: block; 
+    margin: 0 auto;
+}
 header {
     background-color: lightpink;
     padding: 20px;
-    border-bottom: 5px solid darkslategray;
-    border-radius: 0 0 10px 10px;
 }
 .container-1 {
   display: flex;
@@ -73,7 +79,7 @@ body {
     height: 350px;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 #welcome {
     background-color: white;
@@ -146,6 +152,12 @@ body {
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 20px;
+}
+.centering-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 /* .hero-banner {
     background-image: url("https://images.unsplash.com/photo-1570824104453-508955ab713e?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -239,6 +251,7 @@ a:active {
 footer a {
     font-size: 14px;
     text-align: center;
+    display: block;
 }
 .center-image {
     display: block;
