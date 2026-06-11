@@ -9,7 +9,7 @@
     <body>
         <header>
             <h1 class="title">Cat's Corner</h1>
-            <nav>
+            <nav id="nav">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -22,17 +22,17 @@
             <!-- Introduction to Cat's Corner -->
             <section>
                 <div id="welcome">
-                    <h2>Welcome to Cat's Corner!</h2>
+                    <h2 class="cat-care">Welcome to Cat's Corner!</h2>
                     <p>At Cat's Corner, we are passionate about all things feline. Our mission is to create a welcoming space for cat lovers to share their love for cats, exchange tips and advice, and connect with other cat enthusiasts. Whether you're a seasoned cat owner or just starting to learn about cats, you'll find something here for you.</p>
                 </div> 
             </section>
             <section>  
-                <h2>Adoptable Cats</h2>
+                <h2 class="cat-care">Adoptable Cats</h2>
                 <div>
                     <figure>
                         <!-- example of an relative path -->
-                        <img src="https://images.unsplash.com/photo-1570824104453-508955ab713e?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A basket of kittens" width="100px" height="100px">
-                        <figcaption>A Basket of Kittens. Image provided by <a href="https://unsplash.com/photos/a-basket-of-kittens-9oXqj8sKZlE" target="_blank">Unsplash</a></figcaption>
+                        <img src="https://images.unsplash.com/photo-1570824104453-508955ab713e?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A basket of kittens" class="circle-image">
+                        <!-- <figcaption>A Basket of Kittens. Image provided by <a href="https://unsplash.com/photos/a-basket-of-kittens-9oXqj8sKZlE" target="_blank">Unsplash</a></figcaption> -->
                     </figure>
                 </div>
                 <p>Find your furever friend. We are a community dedicated to <em><strong>cat lovers</strong></em>. We share tips, stories, and photos of our cats. Whether you're a seasoned cat owner or just starting to learn about cats, you'll find something here for you.
@@ -40,10 +40,9 @@
                 <div>
             </section>
             <section>
-                <h2>Activities</h2>
                     <div class="container">
                         <div class="cat-activity"></div>
-                        <div><p>Find your furever friend. We are a community dedicated to <em><strong>cat lovers</strong></em>. We share tips, stories, and photos of our cats. Whether you're a seasoned cat owner or just starting to learn about cats, you'll find something here for you.</p></div>
+                        <div><h2 class="cat-care">Activities</h2><p>Find your furever friend. We are a community dedicated to <em><strong>cat lovers</strong></em>. We share tips, stories, and photos of our cats. Whether you're a seasoned cat owner or just starting to learn about cats, you'll find something here for you.</p></div>
                     </div>
             </section>
             <section>
@@ -51,32 +50,23 @@
                     <div class="container-1">
                         <div class="cat-activity"></div>
                         <div><p>Find your furever friend. We are a community dedicated to <em><strong>cat lovers</strong></em>. We share tips, stories, and photos of our cats. Whether you're a seasoned cat owner or just starting to learn about cats, you'll find something here for you.</p></div>
+                        <div class="cat-activity"></div>
                     </div>
             </section>
             <section>
-                <h2>Nourishment</h2>
-                <div>
-                    <figure>
-                        <!-- example of an absolute path -->
-                        <img src="https://images.unsplash.com/photo-1638826595775-e2eae86cda8e?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A white cat playing with a toy" width="400px" height="400px">
-                        <figcaption>A white cat playing with a toy. Image provided by <a href="https://unsplash.com/photos/a-white-cat-playing-with-a-toy-uePn9YCTCY0" target="_blank">Unsplash</a></figcaption>
-                    </figure>
-                </div>
-                    <p>Find your furever friend. We are a community dedicated to <em><strong>cat lovers</strong></em>. We share tips, stories, and photos of our cats. Whether you're a seasoned cat owner or just starting to learn about cats, you'll find something here for you.</p>
-            </section>
-            <section>
-                <h2 class="contact">Cat Care</h2>
-                <p>If you have any questions or want to share your cat stories, feel free to reach out to us at <a href="mailto:info@catscorner.com">info@catscorner.com</a>.</p>
+                <h2 class="cat-care">Cat Care</h2>
                      <figure>
                         <!-- example of a relative path -->
-                        <img src="https://images.pexels.com/photos/3873629/pexels-photo-3873629.jpeg" alt="A cat waiting at the vet" width="200px" height="200px">
-                        <figcaption>A cat waiting at the vet. Image provided by <a href="https://www.pexels.com/photo/a-cat-waiting-at-the-vet-3873629/" target="_blank">Pexels</a></figcaption>
+                        <img src="https://images.pexels.com/photos/3873629/pexels-photo-3873629.jpeg" alt="A cat waiting at the vet" class="circle-image">
+                        <!-- <figcaption>A cat waiting at the vet. Image provided by <a href="https://www.pexels.com/photo/a-cat-waiting-at-the-vet-3873629/" target="_blank">Pexels</a></figcaption> -->
                     </figure>
+                    <p>If you have any questions or want to share your cat stories, feel free to reach out to us at <a href="mailto:info@catscorner.com">info@catscorner.com</a>.</p>
+
             </section>  
         </main>
         <footer>
             <p>&copy; 2026 Cat's Corner. All rights reserved.</p>
-            <a href="#welcome">Back to Top</a>
+            <a href="#nav">Back to Top</a>
         </footer>
     </body>
 </html>

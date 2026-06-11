@@ -11,7 +11,16 @@
   display: flex;
   background-color: red;
 }
-
+.container-1 {
+  display: flex;
+  background-color: red;
+}
+.container-1 div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
 .container div {
   background-color: #f1f1f1;
   margin: 10px;
@@ -105,14 +114,14 @@ h2 {
     font-weight: 700;
     padding: 10px;
 }
-.contact {
+.cat-care {
     color: darkslategray;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 .title {
     font-size: 36px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 h3 {
     color: darkslategray;
@@ -122,7 +131,7 @@ h3 {
 }
 #welcome {
     background-color: white;
-    border: 2px solid darkslategray;
+    border: 2px solid lightpink;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
@@ -140,6 +149,16 @@ img {
     height: 100%;
     width: 100%;
     margin-bottom: 20px;
+}
+.circle-image {
+  width: 500px;          /* Set a fixed width */
+  height: 500px;         /* Set the exact same height */
+  object-fit: cover;     /* Keeps the image from stretching */
+  border-radius: 50%;    /* Turns the square into a circle */
+  border: 2px solid lightpink; /* Your custom border size, style, and color */
+  display: block;       /* Removes the default inline spacing */
+  margin-left: auto;  /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
 }
 a {
     color: red;
