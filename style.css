@@ -46,15 +46,15 @@ body {
     border: 2px solid darkslategray;
     max-width: 900%;
     width:900px; */
-    background-image: url("images/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg");
+    background-image: url("./images/IMG_7285.jpg");
     background-size: cover;
     height: 350px;
     background-repeat: no-repeat;
     background-position: center;
     margin: 10px auto;
 }
-.hero-banner {
-    background-image: url("images/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg");
+.cat-activity {
+    background-image: url("https://images.unsplash.com/photo-1638826595775-e2eae86cda8e?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     height: 350px;
     width: 900px;
@@ -62,6 +62,15 @@ body {
     background-position: center;
     margin-bottom: 20px;
 }
+/* .hero-banner {
+    background-image: url("https://images.unsplash.com/photo-1570824104453-508955ab713e?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 350px;
+    width: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+} */
 header {
     background-color: lightpink;
     padding: 20px;
