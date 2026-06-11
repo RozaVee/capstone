@@ -87,6 +87,15 @@ body {
     background-position: center;
     margin-bottom: 20px;
 }
+.adopt-cat {
+    background-image: url("https://images.unsplash.com/photo-1570824104453-508955ab713e?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 350px;
+    width: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
 .activity-box {
     flex: 1;
     background-color: white;
