@@ -79,7 +79,7 @@ body {
     margin-bottom: 20px;
 }
 .cat-food {
-    background-image: url(./images/cat-eating.png);
+    background-image: url("https://images.pexels.com/photos/3873629/pexels-photo-3873629.jpeg");
     background-size: cover;
     height: 350px;
     width: 900px;
