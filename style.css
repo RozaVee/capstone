@@ -22,9 +22,9 @@
 }
 
 .logo {
-  height: 200px;
-  width: 200px;
-  border: none
+  height: 220px;
+  width: 220px;
+  border: none;
 }
 
 iframe {
@@ -225,7 +225,7 @@ h1 {
 
 header h1 {
     text-align: center ;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h2 {
@@ -284,7 +284,7 @@ img {
 
 a {
     color: #e75480;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
