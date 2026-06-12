@@ -201,12 +201,12 @@ header h1 {
 h2 {
     color: darkslategray;
     text-align: left;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     padding: 10px;
 }
 .cat-care {
-    color: darkslategray;
+    color: #e75480;
     text-align: center;
     padding: 10px;
 }
@@ -245,15 +245,15 @@ img {
     margin-bottom: 20px;
 }
 a {
-    color: purple;
-    text-decoration: none;
+    color: #e75480;
+    text-decoration: underline;
 }
 a:hover {
     text-decoration: underline;
 }
-a:visited {
+/* a:visited {
     color: #e75480;
-}
+} */
 a:active {
     color: red;
 }
